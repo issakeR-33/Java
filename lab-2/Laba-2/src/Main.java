@@ -1,8 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        // ===== ЗАДАЧА 1: Exception =====
-        System.out.println("=== Задача 1: Перевірка email (Exception) ===");
+        System.out.println("Задача 1: Перевірка email");
 
         String[] emails = {"user@example.com", "invalid-email", "test@mail.org", "bad@", "@nodomain.com"};
 
@@ -14,8 +13,8 @@ public class Main {
             }
         }
 
-        // ===== ЗАДАЧА 2: Колекції =====
-        System.out.println("\n=== Задача 2: ArrayList з видаленням недійсних email ===");
+
+        System.out.println("\n Задача 2: ArrayList з видаленням");
 
         java.util.ArrayList<String> emailList = new java.util.ArrayList<>();
         emailList.add("user@example.com");
